@@ -111,7 +111,7 @@ function takecommand(message){
         
     }
     else{
-        speak(`this is what i found on internet regarding ${message.replace("shipra","")}||${message.replace("shifra","")}`);
+        speak(`this is what i found on internet regarding ${message.replace("kautilya","")}||${message.replace("kautilya","")}`);
         window.open(`https://www.google.com/search?q=${message}`);
     }
 }
