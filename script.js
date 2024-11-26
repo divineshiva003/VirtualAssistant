@@ -23,16 +23,16 @@ function wishme(){
     console.log(day.getHours());
     console.log(day.getMinutes());
     if(hours>=0 && hours<12){
-        speak("good morning");
+        speak("Good morning! Welcome to AI Kautilya.");
     }
     else if(hours>=12 && hours<16){
-        speak("good afternoon");
+        speak("Good afternoon! Welcome to AI Kautilya.");
     }
     else{
-        speak("good evening");
+        speak("Good evening! Welcome to AI Kautilya.");
     }
 }
-window.addEventListener('DOMContentLoaded',wishme()=>{
+window.addEventListener('DOMContentLoaded',()=>{
     wishme()
 })
 let speechRecognition=window.SpeechRecognition || window.webkitSpeechRecognition
