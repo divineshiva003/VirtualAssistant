@@ -32,7 +32,7 @@ function wishme(){
         speak("good evening");
     }
 }
-window.addEventListener('load',()=>{
+window.addEventListener('DOMContentLoaded',()=>{
     wishme()
 })
 let speechRecognition=window.SpeechRecognition || window.webkitSpeechRecognition
